@@ -1,38 +1,53 @@
-Bug reports for the website - https://demoqa.com/automation-practice-form
+Some examples of bug reports writed by me. 1st - UI bug, 2nd - Functional bug, 3rd - Logic bug, 4th - Perfomance bug, 5th - User Expiernce bug 
 
 #1
-Title: 
-Description: 
+Title: In the Login page input fields are not center alighned
 Steps to reproduce:
-1.  
-Actual result: 
-Expected result:
-Severity:
-Priority:
+  1. Open the link
+  2. Open the DevTools
+  3. Hover mouse over input fields "Username" and "Password"
+  4. In the Styles tab inside of DevTools, check padding for these fields
+Actual result: Left padding is 0px, which looks unbalanced 
+Expected result: Field "Username" and "Password" should be vertically and horizontally alighned 
+Severity: Low
+Priority: Low
+Attachment: Screenshot/videorecording attached
 
 #2
-Title:
+!!!Title: Error message does not fit the expected area
 Steps to reproduce:
-Actual result:
-Expected result:
-Severity:
-Priority:
+1.Open the link
+2. Fill the username field with data "secret_sauce"
+3. Fill the password field with data "standard_user"
+4. Click on "Login"
+Actual result: Error message for wrong login credentials goes beyoung the borders
+Expected result: Error message should stay within its container
+Severity: Medium
+Priority: Medium
+Attachment: Screenshot/videorecording attached
 
 #3
-Title:
+!!!Title: Toggle password visibility is missing 
 Steps to reproduce:
-Actual result:
-Expected result:
-Severity:
-Priority:
+  1. Open the link
+  2. Fill the password field with the data "secret_sauce"
+Actual result: User is unable to check the spelling of the password
+Expected result: There should be an eye icon inside of password field, that allows the user to toggle password visibility 
+Severity: Low
+Priority: Medium
+Attachment: Screenshot/videorecording attached
 
 #4
-Title:
+Title: 
 Steps to reproduce:
+1. Open the link
+2. Login
+3. 
 Actual result:
 Expected result:
 Severity:
 Priority:
+Attachment: Screenshot/videorecording attached
 
 #5
 Title:
@@ -41,4 +56,5 @@ Actual result:
 Expected result:
 Severity:
 Priority:
+Attachment: Screenshot/videorecording attached
 
